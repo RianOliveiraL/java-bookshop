@@ -4,6 +4,8 @@ public class Pessoa {
     private String nome;
     private String cpf;
     private int idade;
+
+    private String dataNascimento;
     private String genero;
     private String rg;
     private Endereco endereco;
@@ -15,6 +17,7 @@ public class Pessoa {
         this.genero = genero;
         this.rg = rg;
         this.endereco = endereco;
+        this.dataNascimento = dataNascimento;
     }
 
     public String getNome() {
@@ -65,5 +68,11 @@ public class Pessoa {
         this.endereco = endereco;
     }
 
+    public String getDataNascimento() {
+        return dataNascimento;
+    }
 
+    public void setDataNascimento(String dataNascimento) {
+        this.dataNascimento = dataNascimento;
+    }
 }

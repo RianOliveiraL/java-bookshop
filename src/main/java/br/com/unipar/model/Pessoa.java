@@ -14,7 +14,7 @@ public class Pessoa {
     private int id;
     private Date dataCadastro;
 
-    public Pessoa(String nome, String cpf, int idade, String genero, String rg, Endereco endereco, int id, Date datacadastro) {
+    public Pessoa(String nome, String cpf, int idade, String genero, String dataNascimento, String rg, Endereco endereco, int id, Date datacadastro) {
         this.nome = nome;
         this.cpf = cpf;
         this.idade = idade;
